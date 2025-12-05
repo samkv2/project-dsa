@@ -52,6 +52,6 @@ public class strings {
         boolean startsWith = str1.startsWith("Hello");
         boolean endsWith = str1.endsWith("!");
         boolean contains = str1.contains("World");
-        System.out.println("Starts with 'Hello': " + startsWith + ", Contains 'World': " + contains);
+        System.out.println("Starts with 'Hello': " + startsWith + ", Contains 'World': " + contains + ", Ends with '!': " + endsWith);
     }
 }
